@@ -1,0 +1,59 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "department": "IT",
+        "salary": 50000
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "department": "HR",
+        "salary": 60000
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "department": "Sales",
+        "salary": 70000
+      }
+    ],
+    "projects": [
+      {
+        "id": 1,
+        "name": "Project A",
+        "department": "IT"
+      },
+      {
+        "id": 2,
+        "name": "Project B",
+        "department": "HR"
+      },
+      {
+        "id": 3,
+        "name": "Project C",
+        "department": "Sales"
+      }
+    ],
+    "managers":[
+        {
+            "id":1,
+            "name":"Peter",
+            "project":2,
+            "is_manager":true
+        },
+        {
+            "id":2,
+            "name":"Yuvan",
+            "project":3,
+            "is_manager":true
+        },
+        {
+            "id":3,
+            "name":"Rachel",
+            "project":1,
+            "is_manager":true
+        }
+    ]
+  }
